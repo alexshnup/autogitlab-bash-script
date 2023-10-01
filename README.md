@@ -1,0 +1,1 @@
+# autogitlab-bash-script
