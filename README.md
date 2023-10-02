@@ -8,8 +8,8 @@ The gitlab_automation_test.sh script does the following:
 - receives a token for the runner (using Ruby script)
 - registers the runner (using docker exec)
 - pushes two repositories located in the frontend and frontend_build directories, which should be one level higher
-- adds several CI/CD variables to build the project's frontend. (using Gitlab API)
-- adds a tag for launching CI/CD (using Gitlab API)
+- adds several CI/CD variables to the project frontend-build. (using Gitlab API)
+- adds a tag for launching CI/CD to the project frontend-build. (using Gitlab API)
 
 # Dependencies 
 - docker
